@@ -49,8 +49,10 @@ function HomePage() {
             <span className="inline-flex items-center gap-2 rounded-full border border-brand-flame/40 bg-brand-flame/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-flame">
               <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
-            <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
-              Heating, Cooling & <span className="text-brand-flame">Pool Heater</span> Experts in Ottawa.
+            <h1 className="mt-6 font-display text-7xl leading-[0.95] tracking-tight whitespace-pre-line">
+              Heat That{"\n"}
+              <span className="text-brand-flame text-7xl">Just{"\n"}Works.</span>{"\n"}
+              Trusted Experts in Ottawa.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
               Fully certified. Fully licensed. TSSA registered. Over 25 years keeping Ottawa
@@ -139,8 +141,8 @@ function HomePage() {
           </div>
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.3em] text-brand-flame">Our Specialty</span>
-            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">
-              Ottawa's Trusted <span className="text-brand-flame">Pool Heater</span> Pros.
+            <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl whitespace-pre-line">
+              Ottawa's Trusted <span className="text-brand-flame text-7xl">Just{"\n"}Works.</span> Pros.
             </h2>
             <p className="mt-5 text-primary-foreground/75">
               Don't lose a single weekend of swim season. We service, repair and install all major pool heater
