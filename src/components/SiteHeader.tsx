@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Phone, Menu, X } from "lucide-react";
+import { Phone, Menu, X, Flame } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/logo.png";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -15,8 +14,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-8">
-        <Link to="/" className="flex items-center gap-3">
-          <img src={logo} alt="Capital Flame logo" className="h-10 w-auto md:h-12" />
+        <Link to="/" className="flex items-center gap-2">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-flame shadow-elegant md:h-12 md:w-12">
+            <Flame className="h-6 w-6 text-primary-foreground animate-flicker md:h-7 md:w-7" />
+          </span>
+          <span className="font-display text-xl tracking-wide text-foreground md:text-2xl">Capital Flame</span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
