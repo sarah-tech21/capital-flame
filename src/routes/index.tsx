@@ -79,7 +79,7 @@ function HomePage() {
           </div>
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-flame opacity-30 blur-3xl" />
-            <img src={vanImg} alt="Capital Flame service van in Ottawa" className="relative w-full rounded-3xl object-cover shadow-elegant" />
+            <img src={vanImg} alt="Capital Flame service van in Ottawa" className="relative w-full rounded-3xl object-cover shadow-elegant md:scale-110 md:origin-left" />
           </div>
         </div>
       </section>
