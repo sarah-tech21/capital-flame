@@ -51,7 +51,7 @@ function HomePage() {
             </span>
             <h1 className="mt-6 font-display text-7xl leading-[0.95] tracking-tight whitespace-pre-line">
               Heat That{"\n"}
-              <span className="text-brand-flame">Just{"\n"}Works.</span>{"\n"}
+              <span className="text-brand-flame text-7xl">Just{"\n"}Works.</span>{"\n"}
               Trusted Experts in Ottawa.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
