@@ -44,15 +44,14 @@ function HomePage() {
       {/* HERO */}
       <section className="relative overflow-hidden bg-gradient-hero">
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, oklch(0.6 0.23 35) 0%, transparent 50%)" }} />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-2 md:px-8 md:py-28">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-[1fr_1.4fr] md:px-8 md:py-28">
           <div className="text-primary-foreground">
             <span className="inline-flex items-center gap-2 rounded-full border border-brand-flame/40 bg-brand-flame/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-flame">
               <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
-            <h1 className="mt-6 font-display text-7xl leading-[0.95] tracking-tight whitespace-pre-line">
-              Heat That{"\n"}
-              <span className="text-brand-flame text-7xl">Just{"\n"}Works.</span>{"\n"}
-              Trusted Experts in Ottawa.
+            <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
+              Heat That <span className="bg-gradient-flame bg-clip-text text-transparent">Just Works</span>
+              <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90">Trusted Experts in Ottawa.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
               Fully certified. Fully licensed. TSSA registered. Over 25 years keeping Ottawa
@@ -80,7 +79,7 @@ function HomePage() {
           </div>
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-flame opacity-30 blur-3xl" />
-            <img src={vanImg} alt="Capital Flame service van in Ottawa" className="relative w-full rounded-3xl object-cover shadow-elegant" />
+            <img src={vanImg} alt="Capital Flame service van in Ottawa" className="relative w-full rounded-3xl object-cover shadow-elegant md:scale-110 md:origin-left" />
           </div>
         </div>
       </section>
