@@ -47,7 +47,7 @@ function HomePage() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-2 md:px-8 md:py-28">
           <div className="text-primary-foreground">
             <span className="inline-flex items-center gap-2 rounded-full border border-brand-flame/40 bg-brand-flame/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-flame">
-              <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0 ★ on Google · 36 Reviews
+              <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
               Heating, Cooling & <span className="text-brand-flame">Pool Heater</span> Experts in Ottawa.
