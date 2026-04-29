@@ -50,7 +50,7 @@ function HomePage() {
               <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
-              Heat That <span className="bg-gradient-flame bg-clip-text text-transparent">Just Works</span>
+              Heat That <span className="text-brand-flame">Just Works</span>
               <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90">Trusted Experts in Ottawa.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
