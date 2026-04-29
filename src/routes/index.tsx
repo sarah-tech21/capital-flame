@@ -50,12 +50,13 @@ function HomePage() {
               <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
             <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
-              Heat That <span className="text-brand-flame">Just Works</span>
-              <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90">Trusted Experts in Ottawa.</span>
+              Heat That <span className="text-brand-flame">Just Works.</span>
+              <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90 whitespace-pre-line text-left">
+                {"Trusted Experts in Ottawa.\n\n"}
+              </span>
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-primary-foreground/80">
-              Fully certified. Fully licensed. TSSA registered. Over 25 years keeping Ottawa
-              comfortable — from furnace tune-ups to summer pool heater installs.
+            <p className="mt-6 max-w-xl text-lg text-primary-foreground/80 whitespace-pre-line text-left">
+              {"Fully certified. Fully licensed. TSSA registered. Over 25 years keeping Ottawa comfortable.\nHonest Pricing. You come first."}
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a
