@@ -3,7 +3,7 @@ import { Star, Award, Shield, Heart } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CallStrip } from "@/components/CallStrip";
-import vanImg from "@/assets/van.png";
+import vanImg from "@/assets/capital-flame-sign.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -31,7 +31,7 @@ function AboutPage() {
 
       <section className="bg-background py-20">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
-          <img src={vanImg} alt="Capital Flame service van" className="rounded-3xl shadow-elegant" />
+          <img src={vanImg} alt="Capital Flame Heating, Cooling & Pool Heater sign" className="rounded-3xl shadow-elegant" />
           <div>
             <h2 className="font-display text-4xl tracking-tight md:text-5xl">Honest work. Done right. Every time.</h2>
             <p className="mt-5 text-muted-foreground">
