@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Flame, Snowflake, Waves, Zap, Wind, Wrench, Shield, Clock } from "lucide-react";
+import { FlameKindling, Snowflake, Waves, Zap, Wind, Wrench, Shield, Clock } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CallStrip } from "@/components/CallStrip";
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/services")({
 });
 
 const services = [
-  { icon: Flame, image: furnaceImg, title: "Furnace Repair & Installation", items: ["Diagnostic & repair", "New furnace installation", "Annual maintenance", "Safety inspection"] },
+  { icon: FlameKindling, image: furnaceImg, title: "Furnace Repair & Installation", items: ["Diagnostic & repair", "New furnace installation", "Annual maintenance", "Safety inspection"] },
   { icon: Snowflake, image: acImg, title: "Air Conditioning", items: ["A/C repair & tune-up", "System inspection", "Pre-season service", "Cooling diagnostics"] },
   { icon: Waves, image: poolImg, title: "Pool Heater Specialists", items: ["Repair on all makes", "New installations", "Service & winterization", "Inspection & diagnostics"] },
   { icon: Zap, image: gasImg, title: "Gas Line Services", items: ["Underground gas lines", "Gas range hookups", "BBQ hookups", "Code-compliant installs"] },

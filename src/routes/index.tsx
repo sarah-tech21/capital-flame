@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Phone, Star, Shield, Clock, Award, Wrench, Flame, Snowflake, Waves, Zap, CheckCircle2, ArrowRight } from "lucide-react";
+import { Phone, Star, Shield, Clock, Award, Wrench, FlameKindling, Snowflake, Waves, Zap, CheckCircle2, ArrowRight } from "lucide-react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CallStrip } from "@/components/CallStrip";
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
 });
 
 const services = [
-  { icon: Flame, title: "Furnace Service", desc: "Repair, inspection, maintenance and installation for every furnace make." },
+  { icon: FlameKindling, title: "Furnace Service", desc: "Repair, inspection, maintenance and installation for every furnace make." },
   { icon: Snowflake, title: "Air Conditioning", desc: "Keep cool all summer with expert A/C repair, tune-up and inspection." },
   { icon: Waves, title: "Pool Heaters", desc: "Our specialty. Repair, service, installation & inspection for all brands." },
   { icon: Zap, title: "Gas Lines & Hookups", desc: "Underground gas lines, BBQ and gas range hookups done safely to code." },
