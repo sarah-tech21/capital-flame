@@ -142,7 +142,7 @@ function HomePage() {
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.3em] text-brand-flame">Our Specialty</span>
             <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl whitespace-pre-line">
-              Ottawa's Trusted <span className="text-brand-flame text-7xl">Just{"\n"}Works.</span> Pros.
+              Ottawa's Trusted <span className="text-brand-flame text-7xl">Pool Heater</span> Pros.
             </h2>
             <p className="mt-5 text-primary-foreground/75">
               Don't lose a single weekend of swim season. We service, repair and install all major pool heater
