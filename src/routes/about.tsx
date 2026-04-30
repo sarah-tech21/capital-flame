@@ -43,7 +43,7 @@ function AboutPage() {
             <p className="mt-4 text-muted-foreground">
               From furnaces and air conditioners to our specialty — pool heaters — we treat every
               call like it matters, because it does. That's why our customers keep coming back year
-              after year, and why we're proud to hold a perfect 5.0★ Google rating.
+              after year.
             </p>
           </div>
         </div>
@@ -72,8 +72,7 @@ function AboutPage() {
         <div className="mx-auto max-w-3xl px-4 text-center md:px-8">
           <h2 className="font-display text-4xl tracking-tight md:text-5xl">Our Promise</h2>
           <p className="mt-5 text-lg text-primary-foreground/80">
-            "We won't recommend work that isn't needed. We show up on time. We explain what we
-            find. And we leave your home better than we found it." — Philippe, Owner
+            We show up on time. We explain what we find. {"\n"}And we leave your home better than we found it.
           </p>
         </div>
       </section>
