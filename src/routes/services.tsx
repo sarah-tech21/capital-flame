@@ -25,7 +25,7 @@ export const Route = createFileRoute("/services")({
 const services = [
   { icon: FlameKindling, image: furnaceImg, title: "Furnace Repair & Installation", items: ["Diagnostic & repair", "New furnace installation", "Annual maintenance", "Safety inspection"] },
   { icon: Snowflake, image: acImg, title: "Air Conditioning", items: ["A/C repair & tune-up", "System inspection", "Pre-season service", "Cooling diagnostics"] },
-  { icon: Waves, image: poolImg, title: "Pool Heater Specialists", items: ["Repair on all makes", "New installations", "Service & winterization", "Inspection & diagnostics"] },
+  { icon: Waves, image: poolImg, title: "Pool Specialists", items: ["Repair on all makes", "New installations", "Service & winterization", "Inspection & diagnostics"] },
   { icon: Zap, image: gasImg, title: "Gas Line Services", items: ["Underground gas lines", "Gas range hookups", "BBQ hookups", "Code-compliant installs"] },
   { icon: Wind, image: humidifierImg, title: "Central Humidifiers", items: ["Install & service", "Filter replacement", "System tune-up", "Whole-home comfort"] },
   { icon: Wrench, image: emergencyImg, title: "24/7 Emergency Service", items: ["After-hours response", "Weekend availability", "No-heat emergencies", "Bilingual service"] },
