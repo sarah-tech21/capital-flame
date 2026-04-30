@@ -60,7 +60,6 @@ function ServicesPage() {
                     height={768}
                     loading="lazy"
                     className="h-full w-full object-cover"
-                    style={s.title === "24/7 Emergency Service" ? { objectPosition: "85% center" } : undefined}
                   />
                 </div>
                 <div className="flex-1 p-6">
