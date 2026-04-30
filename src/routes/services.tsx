@@ -3,6 +3,12 @@ import { Flame, Snowflake, Waves, Zap, Wind, Wrench, Shield, Clock } from "lucid
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CallStrip } from "@/components/CallStrip";
+import furnaceImg from "@/assets/service-furnace.jpg";
+import acImg from "@/assets/service-ac.jpg";
+import poolImg from "@/assets/service-pool.jpg";
+import gasImg from "@/assets/service-gas.jpg";
+import humidifierImg from "@/assets/service-humidifier.jpg";
+import emergencyImg from "@/assets/service-emergency.jpg";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -17,12 +23,12 @@ export const Route = createFileRoute("/services")({
 });
 
 const services = [
-  { icon: Flame, title: "Furnace Repair & Installation", items: ["Diagnostic & repair", "New furnace installation", "Annual maintenance", "Safety inspection"] },
-  { icon: Snowflake, title: "Air Conditioning", items: ["A/C repair & tune-up", "System inspection", "Pre-season service", "Cooling diagnostics"] },
-  { icon: Waves, title: "Pool Heater Specialists", items: ["Repair on all makes", "New installations", "Service & winterization", "Inspection & diagnostics"] },
-  { icon: Zap, title: "Gas Line Services", items: ["Underground gas lines", "Gas range hookups", "BBQ hookups", "Code-compliant installs"] },
-  { icon: Wind, title: "Central Humidifiers", items: ["Install & service", "Filter replacement", "System tune-up", "Whole-home comfort"] },
-  { icon: Wrench, title: "24/7 Emergency Service", items: ["After-hours response", "Weekend availability", "No-heat emergencies", "Bilingual service"] },
+  { icon: Flame, image: furnaceImg, title: "Furnace Repair & Installation", items: ["Diagnostic & repair", "New furnace installation", "Annual maintenance", "Safety inspection"] },
+  { icon: Snowflake, image: acImg, title: "Air Conditioning", items: ["A/C repair & tune-up", "System inspection", "Pre-season service", "Cooling diagnostics"] },
+  { icon: Waves, image: poolImg, title: "Pool Heater Specialists", items: ["Repair on all makes", "New installations", "Service & winterization", "Inspection & diagnostics"] },
+  { icon: Zap, image: gasImg, title: "Gas Line Services", items: ["Underground gas lines", "Gas range hookups", "BBQ hookups", "Code-compliant installs"] },
+  { icon: Wind, image: humidifierImg, title: "Central Humidifiers", items: ["Install & service", "Filter replacement", "System tune-up", "Whole-home comfort"] },
+  { icon: Wrench, image: emergencyImg, title: "24/7 Emergency Service", items: ["After-hours response", "Weekend availability", "No-heat emergencies", "Bilingual service"] },
 ];
 
 function ServicesPage() {
@@ -43,21 +49,33 @@ function ServicesPage() {
 
       <section className="bg-gradient-warm py-20">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {services.map((s) => (
-              <div key={s.title} className="rounded-2xl border border-border bg-card p-8 shadow-card">
-                <div className="inline-flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-flame text-primary-foreground shadow-elegant">
-                  <s.icon className="h-7 w-7" />
+              <div key={s.title} className="flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-card sm:flex-row">
+                <div className="relative h-48 w-full shrink-0 overflow-hidden sm:h-auto sm:w-2/5">
+                  <img
+                    src={s.image}
+                    alt={s.title}
+                    width={768}
+                    height={768}
+                    loading="lazy"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
-                <h2 className="mt-5 font-display text-2xl tracking-wide">{s.title}</h2>
-                <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                  {s.items.map((i) => (
-                    <li key={i} className="flex items-start gap-2">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-flame" />
-                      {i}
-                    </li>
-                  ))}
-                </ul>
+                <div className="flex-1 p-6">
+                  <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-flame text-primary-foreground shadow-elegant">
+                    <s.icon className="h-6 w-6" />
+                  </div>
+                  <h2 className="mt-4 font-display text-2xl tracking-wide">{s.title}</h2>
+                  <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+                    {s.items.map((i) => (
+                      <li key={i} className="flex items-start gap-2">
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-flame" />
+                        {i}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             ))}
           </div>
