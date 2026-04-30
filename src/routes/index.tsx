@@ -139,7 +139,7 @@ function HomePage() {
           <div>
             <span className="text-xs font-bold uppercase tracking-[0.3em] text-brand-flame">Our Specialty</span>
             <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl whitespace-pre-line">
-              Ottawa's Trusted <span className="text-brand-flame text-7xl">Pool</span> Pros.
+              Ottawa's Trusted <span className="text-brand-flame text-7xl"></span> Pros.
             </h2>
             <p className="mt-5 text-primary-foreground/75">
               Don't lose a single weekend of swim season. We service, repair and install all major pool heater
@@ -162,7 +162,7 @@ function HomePage() {
               href="tel:6134221125"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-flame px-7 py-4 font-bold text-primary-foreground shadow-elegant transition-transform hover:scale-105"
             >
-              <Phone className="h-5 w-5" /> Book Pool Service
+              <Phone className="h-5 w-5" /> Book Service
             </a>
           </div>
         </div>
@@ -172,7 +172,7 @@ function HomePage() {
       <section className="bg-background py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="text-center">
-            <span className="text-xs font-bold uppercase tracking-[0.3em] text-brand-flame">5.0 ★ on Google</span>
+            <span className="text-xs font-bold uppercase tracking-[0.3em] text-brand-flame">5.0 ★ </span>
             <h2 className="mt-3 font-display text-5xl tracking-tight md:text-6xl">What Ottawa Says About Us</h2>
           </div>
           <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
