@@ -46,9 +46,6 @@ function HomePage() {
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, oklch(0.6 0.23 35) 0%, transparent 50%)" }} />
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 md:grid-cols-[1fr_1.4fr] md:px-8 md:py-28">
           <div className="text-primary-foreground">
-            <span className="inline-flex items-center gap-2 rounded-full border border-brand-flame/40 bg-brand-flame/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-flame">
-              <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
-            </span>
             <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl text-left">
               Heat That <span className="text-brand-flame">Lasts.</span>
               <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90 whitespace-pre-line text-left">
