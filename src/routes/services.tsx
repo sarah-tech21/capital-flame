@@ -60,7 +60,7 @@ function ServicesPage() {
                     height={768}
                     loading="lazy"
                     className="h-full w-full object-cover"
-                    style={s.title === "Gas Line Services" ? { objectPosition: "left top" } : undefined}
+                    
                   />
                 </div>
                 <div className="flex-1 p-6">
