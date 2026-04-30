@@ -49,8 +49,8 @@ function HomePage() {
             <span className="inline-flex items-center gap-2 rounded-full border border-brand-flame/40 bg-brand-flame/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-brand-flame">
               <Star className="h-3.5 w-3.5 fill-brand-flame" /> 5.0
             </span>
-            <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl">
-              Heat That <span className="text-brand-flame"></span>
+            <h1 className="mt-6 font-display text-5xl leading-[0.95] tracking-tight md:text-7xl text-left">
+              Heat That <span className="text-brand-flame">Lasts.</span>
               <span className="block mt-3 text-4xl md:text-5xl text-primary-foreground/90 whitespace-pre-line text-left">
                 {"Trusted Experts in Ottawa.\n\n"}
               </span>
