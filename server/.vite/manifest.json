@@ -1,0 +1,202 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/home/runner/work/capital-flame/capital-flame/src/styles.css": {
+    "file": "assets/styles-CjI0nm8O.css",
+    "src": "/home/runner/work/capital-flame/capital-flame/src/styles.css"
+  },
+  "_CallStrip-Ddi-f4h_.js": {
+    "file": "assets/CallStrip-Ddi-f4h_.js",
+    "name": "CallStrip",
+    "imports": [
+      "_SiteFooter-B1XqOJHP.js",
+      "_worker-entry-C_Xjei1k.js"
+    ]
+  },
+  "_SiteFooter-B1XqOJHP.js": {
+    "file": "assets/SiteFooter-B1XqOJHP.js",
+    "name": "SiteFooter",
+    "imports": [
+      "_worker-entry-C_Xjei1k.js",
+      "_router-DbohzTEb.js"
+    ]
+  },
+  "_router-DbohzTEb.js": {
+    "file": "assets/router-DbohzTEb.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js"
+    ],
+    "dynamicImports": [
+      "src/routes/services.tsx?tsr-split=component",
+      "src/routes/contact.tsx?tsr-split=component",
+      "src/routes/about.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CjI0nm8O.css"
+    ]
+  },
+  "_star-XGq7lxp0.js": {
+    "file": "assets/star-XGq7lxp0.js",
+    "name": "star",
+    "imports": [
+      "_SiteFooter-B1XqOJHP.js"
+    ]
+  },
+  "_worker-entry-C_Xjei1k.js": {
+    "file": "assets/worker-entry-C_Xjei1k.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-DbohzTEb.js",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_zap-B950x8EP.js": {
+    "file": "assets/zap-B950x8EP.js",
+    "name": "zap",
+    "imports": [
+      "_SiteFooter-B1XqOJHP.js"
+    ]
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/capital-flame-sign.png": {
+    "file": "assets/capital-flame-sign-B8k9cIMv.png",
+    "src": "src/assets/capital-flame-sign.png"
+  },
+  "src/assets/pool-equipment.png": {
+    "file": "assets/pool-equipment-Cvvgg2z_.png",
+    "src": "src/assets/pool-equipment.png"
+  },
+  "src/assets/pool-heater-1.png": {
+    "file": "assets/pool-heater-1-G-vd7h-p.png",
+    "src": "src/assets/pool-heater-1.png"
+  },
+  "src/assets/pool-heater-2.png": {
+    "file": "assets/pool-heater-2-DsQ3vfuO.png",
+    "src": "src/assets/pool-heater-2.png"
+  },
+  "src/assets/service-ac.jpg": {
+    "file": "assets/service-ac-C48mnL3t.jpg",
+    "src": "src/assets/service-ac.jpg"
+  },
+  "src/assets/service-emergency.jpg": {
+    "file": "assets/service-emergency-MACI7UsN.jpg",
+    "src": "src/assets/service-emergency.jpg"
+  },
+  "src/assets/service-furnace.jpg": {
+    "file": "assets/service-furnace-OwUfKnIM.jpg",
+    "src": "src/assets/service-furnace.jpg"
+  },
+  "src/assets/service-gas.jpg": {
+    "file": "assets/service-gas-CEbBjkrv.jpg",
+    "src": "src/assets/service-gas.jpg"
+  },
+  "src/assets/service-humidifier.jpg": {
+    "file": "assets/service-humidifier-DtQUgF-B.jpg",
+    "src": "src/assets/service-humidifier.jpg"
+  },
+  "src/assets/service-pool.jpg": {
+    "file": "assets/service-pool-BVJ3ZgIW.jpg",
+    "src": "src/assets/service-pool.jpg"
+  },
+  "src/assets/van.png": {
+    "file": "assets/van-C0aQ-IP0.png",
+    "src": "src/assets/van.png"
+  },
+  "src/routes/about.tsx?tsr-split=component": {
+    "file": "assets/about-DibVoNfq.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js",
+      "_SiteFooter-B1XqOJHP.js",
+      "_CallStrip-Ddi-f4h_.js",
+      "_star-XGq7lxp0.js",
+      "_router-DbohzTEb.js"
+    ],
+    "assets": [
+      "assets/capital-flame-sign-B8k9cIMv.png"
+    ]
+  },
+  "src/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-eS4KRVXF.js",
+    "name": "contact",
+    "src": "src/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js",
+      "_SiteFooter-B1XqOJHP.js",
+      "_router-DbohzTEb.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CusIzV3t.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js",
+      "_router-DbohzTEb.js",
+      "_SiteFooter-B1XqOJHP.js",
+      "_CallStrip-Ddi-f4h_.js",
+      "_star-XGq7lxp0.js",
+      "_zap-B950x8EP.js"
+    ],
+    "assets": [
+      "assets/van-C0aQ-IP0.png",
+      "assets/pool-heater-1-G-vd7h-p.png",
+      "assets/pool-heater-2-DsQ3vfuO.png",
+      "assets/pool-equipment-Cvvgg2z_.png"
+    ]
+  },
+  "src/routes/services.tsx?tsr-split=component": {
+    "file": "assets/services-DDs_7604.js",
+    "name": "services",
+    "src": "src/routes/services.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js",
+      "_SiteFooter-B1XqOJHP.js",
+      "_CallStrip-Ddi-f4h_.js",
+      "_zap-B950x8EP.js",
+      "_router-DbohzTEb.js"
+    ],
+    "assets": [
+      "assets/service-furnace-OwUfKnIM.jpg",
+      "assets/service-ac-C48mnL3t.jpg",
+      "assets/service-pool-BVJ3ZgIW.jpg",
+      "assets/service-gas-CEbBjkrv.jpg",
+      "assets/service-humidifier-DtQUgF-B.jpg",
+      "assets/service-emergency-MACI7UsN.jpg"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-ClDEWcDq.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-C_Xjei1k.js"
+    ]
+  }
+}

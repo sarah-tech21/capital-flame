@@ -1,0 +1,79 @@
+import { c as createLucideIcon } from "./SiteFooter-B1XqOJHP.js";
+const __iconNode$4 = [
+  [
+    "path",
+    {
+      d: "M12 2c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 17 10a5 5 0 1 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C8 4.5 11 2 12 2Z",
+      key: "1ir223"
+    }
+  ],
+  ["path", { d: "m5 22 14-4", key: "1brv4h" }],
+  ["path", { d: "m5 18 14 4", key: "lgyyje" }]
+];
+const FlameKindling = createLucideIcon("flame-kindling", __iconNode$4);
+const __iconNode$3 = [
+  ["path", { d: "m10 20-1.25-2.5L6 18", key: "18frcb" }],
+  ["path", { d: "M10 4 8.75 6.5 6 6", key: "7mghy3" }],
+  ["path", { d: "m14 20 1.25-2.5L18 18", key: "1chtki" }],
+  ["path", { d: "m14 4 1.25 2.5L18 6", key: "1b4wsy" }],
+  ["path", { d: "m17 21-3-6h-4", key: "15hhxa" }],
+  ["path", { d: "m17 3-3 6 1.5 3", key: "11697g" }],
+  ["path", { d: "M2 12h6.5L10 9", key: "kv9z4n" }],
+  ["path", { d: "m20 10-1.5 2 1.5 2", key: "1swlpi" }],
+  ["path", { d: "M22 12h-6.5L14 15", key: "1mxi28" }],
+  ["path", { d: "m4 10 1.5 2L4 14", key: "k9enpj" }],
+  ["path", { d: "m7 21 3-6-1.5-3", key: "j8hb9u" }],
+  ["path", { d: "m7 3 3 6h4", key: "1otusx" }]
+];
+const Snowflake = createLucideIcon("snowflake", __iconNode$3);
+const __iconNode$2 = [
+  [
+    "path",
+    {
+      d: "M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
+      key: "knzxuh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
+      key: "2jd2cc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1",
+      key: "rd2r6e"
+    }
+  ]
+];
+const Waves = createLucideIcon("waves", __iconNode$2);
+const __iconNode$1 = [
+  [
+    "path",
+    {
+      d: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z",
+      key: "1ngwbx"
+    }
+  ]
+];
+const Wrench = createLucideIcon("wrench", __iconNode$1);
+const __iconNode = [
+  [
+    "path",
+    {
+      d: "M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z",
+      key: "1xq2db"
+    }
+  ]
+];
+const Zap = createLucideIcon("zap", __iconNode);
+export {
+  FlameKindling as F,
+  Snowflake as S,
+  Waves as W,
+  Zap as Z,
+  Wrench as a
+};
