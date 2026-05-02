@@ -22,7 +22,7 @@ jobs:
         run: npm run build
         
       - name: Show build output
-        run: ls -la && ls -la dist || echo "no dist" && ls -la .output || echo "no output" && ls -la client || echo "no client"
+        run: ls -la dist/client && ls -la dist/client/assets || echo "no assets"
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
