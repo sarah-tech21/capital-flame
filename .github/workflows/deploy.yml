@@ -20,12 +20,11 @@ jobs:
         
       - name: Build
         run: npm run build
-
-      - name: Copy index from server
+        
+      - name: Copy 404 page
         run: |
-          ls -la dist/server || echo "no server"
-          find dist -name "*.html" || echo "no html files"
-          find dist -name "index*" || echo "no index files"
+          find dist -name "index.html" | head -5
+          cp dist/client/index.html dist/client/404.html || echo "no index.html found"
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
