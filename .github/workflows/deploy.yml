@@ -20,9 +20,12 @@ jobs:
         
       - name: Build
         run: npm run build
-        
-      - name: Show build output
-        run: ls -la dist/client && ls -la dist/client/assets || echo "no assets"
+
+      - name: Copy index from server
+        run: |
+          ls -la dist/server || echo "no server"
+          find dist -name "*.html" || echo "no html files"
+          find dist -name "index*" || echo "no index files"
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
